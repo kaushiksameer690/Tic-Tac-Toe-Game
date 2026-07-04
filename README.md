@@ -17,15 +17,6 @@ A simple and interactive **Tic Tac Toe** game built using **HTML, CSS, and JavaS
 - CSS
 - JavaScript
 
-##  Project Structure
-
-```
-Tic-Tac-Toe/
-│── index.html
-│── style.css
-│── script.js
-└── README.md
-```
 
 ##  How to Run
 
