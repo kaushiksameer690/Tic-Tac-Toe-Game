@@ -42,6 +42,9 @@ While building this project, I practiced:
 - Conditional statements
 - Updating the UI dynamically
 
+## Preview
+<img width="1895" height="850" alt="image" src="https://github.com/user-attachments/assets/aab1c559-3dc2-4ac9-adc7-a8205a334c83" />
+
 
 ##  Author
 
