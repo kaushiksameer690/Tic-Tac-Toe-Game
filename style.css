@@ -72,3 +72,10 @@ h1{
     color:beige;
     font-size: 8vmin;
 }
+
+@media(max-width:650px){
+    .box{
+        height:12vmin;
+        width:12vmin;
+    }
+}
