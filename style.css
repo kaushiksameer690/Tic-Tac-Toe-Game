@@ -2,9 +2,14 @@
     margin:0px;
     padding:0px;
 }
+html,
 body{
-    background-color: #FC6DAB;
-    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg,
+        #FC6DAB 0%,
+        #D95CF6 50%,
+        #8B5CF6 100%);
 }
 h1{
     text-align: center;
@@ -19,9 +24,10 @@ h1{
     gap:1rem;
 }
 .box{
-    background-color: #C04CFD;
-    height:15vmin;
-    width:15vmin;
+    background: linear-gradient(145deg, #8A2BE2, #5A189A);
+    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    height:12vmin;
+    width:12vmin;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -38,7 +44,11 @@ h1{
     margin-top: 5rem;
 }
 .box:hover{
+    transform: scale(1.05);
     opacity:0.8;
+    box-shadow:
+        0 0 12px rgba(192,76,253,0.6),
+        0 0 25px rgba(252,109,171,0.4);
 }
 #rstbtn{
     background-color:#5E2BFF;
@@ -78,4 +88,9 @@ h1{
         height:12vmin;
         width:12vmin;
     }
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
